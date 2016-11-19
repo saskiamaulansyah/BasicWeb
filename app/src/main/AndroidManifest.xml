@@ -17,8 +17,17 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_welcome" />
-        <activity android:name=".HT"></activity>
+            android:label="@string/title_activity_welcome"></activity>
+        <activity android:name=".HT" />
+        <activity android:name=".isih1" />
+        <activity android:name=".isih2" />
+        <activity android:name=".isih3" />
+        <activity android:name=".isih4"></activity>
+        <activity android:name=".KuisActivity" />
+        <activity android:name=".Kuis2Activity" />
+        <activity android:name=".Kuis3Activity" />
+        <activity android:name=".Kuis4Activity"></activity>
+        <activity android:name=".CS"></activity>
     </application>
 
 </manifest>

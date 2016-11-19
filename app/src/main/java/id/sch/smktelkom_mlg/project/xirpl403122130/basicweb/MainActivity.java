@@ -20,10 +20,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.imageView1).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.imageViewQ).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, HT.class);
+                Intent intent = new Intent(MainActivity.this, KuisActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.imageView11).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CS.class);
                 startActivity(intent);
             }
         });

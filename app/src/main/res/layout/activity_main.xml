@@ -57,7 +57,7 @@
     <ImageView
         android:layout_width="309dp"
         android:layout_height="106dp"
-        android:id="@+id/imageView111"
+        android:id="@+id/imageViewQ"
         android:src="@drawable/btn_quiz"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -71,7 +71,7 @@
     <ImageView
         android:layout_width="309dp"
         android:layout_height="106dp"
-        android:id="@+id/imageView1111"
+        android:id="@+id/imageViewAB"
         android:src="@drawable/btn_about"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
