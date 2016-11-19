@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="id.sch.smktelkom_mlg.project.xirpl403122130.basicweb.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/accent_material_light"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/imageViewback"
+            android:layout_width="51dp"
+            android:layout_height="26dp"
+            android:layout_weight="0.10"
+            android:src="@android:drawable/ic_menu_revert" />
+
+        <ImageView
+            android:id="@+id/imageViewCSS"
+            android:layout_width="475dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.85"
+            android:src="@drawable/js" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="3dp"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:weightSum="1"
+            android:textAlignment="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apa itu CSS ? \n "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         CSS atau Cascading Style Sheet adalah dokumen web yang berfungsi mengatur tampilan dokumen pada HTML.\n
+         Beberapa contoh pemanfaatan CSS pada HTML adalah untuk mengatur warna latar belakang, gaya huruf, jarak antar elemen, dan masih banyak lagi.  \n
+         CSS terdiri atas kumpulan kode-kode yang keberadaannya  sebagai pelengkap agar tampilan dokumen HTML menjadi lebih indah dan dinamis. Berikut ini adalah contoh dokumen CSS. \n" />
+
+            <ImageView
+                android:layout_width="439dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pengenalan"
+                android:layout_weight="0.05"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" \n Pengaplikasian pada CSS \n "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. Inline Stylesheet"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" CSS disisipkan secara langsung di dalam tag HTML yang akan diatur tampilannya dengan menambahkan atribut style yang dapat memuat berbagai property dari CSS tersebut. Berikut ini adalah format penulisannya: \n"
+                android:layout_weight="0.81" />
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="200dp"
+                android:src="@drawable/Inline"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B. Internal Style Sheet"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Pada metode ini, kode CSS disisipkan dalam dokumen HTML sebagai elemen dari tag <style> yang ditambahkan di dalam tag <head>. Di dalam tag <head>pada halaman HTML. Berikut ini adalah format penulisannya. \n"
+                android:layout_weight="0.81" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/Internal"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Dengan metode internal style sheet, kita dapat mengatur tampilan beberapa komponen HTML sekaligus yang ditunjuk oleh selector yang sama. Kode CSS yang ditambahkan hanya berlaku untuk komponen-komponen pada dokumen yang bersangkutan.
+
+ \n"
+                android:layout_weight="0.81" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C. Eksternal Style Sheet"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kode CSS disisipkan pada dokumen terpisah yang disimpan dengan ekstensi *.css. Agar dapat digunakan,
+                 perlu ditambahkan tag <link> yang menghubungkan antara dokumen CSS dengan dokumen HTML tersebut. Tag <link> juga
+                  ditambahkan di dalam tag <head>, seperti berikut: \n"
+                android:layout_weight="0.81" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:src="@drawable/eksternal"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atribut href berfungsi untuk menambahkan lokasi serta nama dokumen CSS yang digunakan.
+                Atribut rel berfungsi untuk menentukan “relationship” antara dokumen HTML dengan dokumen CSS yang dihubungkan.
+              Jika dokumen CSS berada dalam satu lokasi yang sama dengan dokumen HTML, maka cukup menambahkan nama dokumen CSS tersebut
+            sebagai value dari href. Selain itu, untuk dokumen CSS, value dari atribut rel yang perlu ditambahkan adalah “stylesheet” \n"
+                android:layout_weight="0.81" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

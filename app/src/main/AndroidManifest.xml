@@ -28,7 +28,11 @@
         <activity android:name=".Kuis3Activity" />
         <activity android:name=".Kuis4Activity" />
         <activity android:name=".CS" />
-        <activity android:name=".us"></activity>
+        <activity android:name=".us" />
+        <activity android:name=".isic1" />
+        <activity android:name=".isic2" />
+        <activity android:name=".isic3" />
+        <activity android:name=".isic4"></activity>
     </application>
 
 </manifest>
